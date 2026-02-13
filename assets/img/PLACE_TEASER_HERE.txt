@@ -1,0 +1,1 @@
+Put teaser_rss.png here (assets/img/teaser_rss.png).

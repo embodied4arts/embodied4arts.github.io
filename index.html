@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Embodied4Arts @ RSS 2026</title>
+  <meta name="description" content="Embodied4Arts: Robots as Creative Partners for Artistic, Expressive, and Craft Tasks — RSS 2026 Workshop." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <div class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <span>Embodied4Arts</span>
+        <span class="badge">RSS 2026 Workshop</span>
+      </div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#topics">Topics</a>
+        <a href="#challenge">Challenge</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#organizers">Organizers</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#submission">Submission</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="container">
+      <div class="kicker">The 1st Workshop on</div>
+      <h1>Embodied4Arts: Robots as Creative Partners for Artistic, Expressive, and Craft Tasks</h1>
+      <div class="subhead">
+        Creative embodied tasks (painting/drawing, music performance, and deformable craft) provide a high-impact testbed where robots must turn high-level intent into <b>physically executable</b> programs under constraints while optimizing <b>style</b>, <b>expressivity</b>, and <b>human preference</b>.
+      </div>
+      <div class="meta">
+        <span><b>Date:</b> TBD (RSS 2026 workshop day)</span>
+        <span>•</span>
+        <span><b>Location:</b> TBD (RSS 2026 venue)</span>
+        <span>•</span>
+        <span><b>Format:</b> Half-day (4 hours)</span>
+      </div>
+
+      <div class="pills">
+        <a class="btn primary" href="#submission">Submit (Abstract/Video)</a>
+        <a class="btn" href="#challenge">Challenge Starter Kit (TBD)</a>
+        <a class="btn good" href="mailto:yanjia_0812@tamu.edu">Contact</a>
+      </div>
+
+      <div class="tagrow">
+        <span class="tag">Embodied AI</span>
+        <span class="tag">Robot Learning</span>
+        <span class="tag">World Models</span>
+        <span class="tag">Creative Robotics</span>
+        <span class="tag">Deformables</span>
+        <span class="tag">Human Feedback</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="figure">
+      <img src="assets/img/teaser_rss.png" alt="Embodied4Arts teaser (add assets/img/teaser_rss.png)"
+           onerror="this.style.display='none'; this.parentElement.querySelector('.caption').innerHTML='(Add <code>assets/img/teaser_rss.png</code> to show the teaser figure.)';" />
+      <div class="caption">
+        <b>Figure.</b> Representative creative embodied domains: (a) robotic painting/drawing, (b) computational craft,
+        (c) fabrication-aware garments, (d) computational origami/program generation, and (e) robotic music performance.
+      </div>
+    </div>
+
+    <div id="about" class="section">
+      <h2>About the Workshop</h2>
+      <div class="card">
+        <p>
+          Robotics has entered an era of foundation models and data-driven policies, yet many benchmarks still emphasize utilitarian goals with binary outcomes.
+          <b>Embodied artistic creation</b> offers a complementary frontier: robots must convert high-level intent into action while balancing
+          <b>hard constraints</b> (contact, tool use, safety, deformable dynamics) with <b>soft objectives</b> (style, expressivity, aesthetics, human preference).
+          Small modeling errors leave visible traces—“good” behavior is not only correct but also expressive, controllable, and interpretable.
+        </p>
+        <p>
+          Embodied4Arts reframes creative tasks as a driver for next-generation embodied intelligence: <i>from generative models to generative motor programs</i>.
+          We aim to bring together robot learning, manipulation/control, world models, HRI, and creative AI/graphics to develop shared formulations and evaluation protocols.
+        </p>
+        <div class="notice small">
+          <b>Note:</b> This website is a living document. Dates, venue details, and the final speaker list will be updated as RSS releases official workshop scheduling.
+        </div>
+      </div>
+    </div>
+
+    <div id="topics" class="section">
+      <h2>Topics of Interest</h2>
+      <div class="grid grid-3">
+        <div class="card">
+          <h3 style="margin:0 0 6px;font-size:16px;">(1) Painting &amp; Drawing as Programs</h3>
+          <p class="small">
+            Transform intent (text/image/sketch) into stroke programs under tool/material constraints.
+            Focus: hierarchical action representations, verification/constraints, and metrics beyond pixel similarity.
+          </p>
+          <ul class="list-tight">
+            <li>Stroke planning and macro-actions</li>
+            <li>Verification-aware decoding and constraint checking</li>
+            <li>Evaluation: efficiency, robustness, style/expressivity</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 style="margin:0 0 6px;font-size:16px;">(2) Embodied Music &amp; Expressive Control</h3>
+          <p class="small">
+            Beyond note correctness: timing, dynamics, articulation, and interaction.
+            Focus: contact/compliance, tempo/phrasing representations, and expressivity metrics.
+          </p>
+          <ul class="list-tight">
+            <li>Expressive performance and co-performance</li>
+            <li>Audio-visual perception for control</li>
+            <li>Evaluation aligned with human perception</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 style="margin:0 0 6px;font-size:16px;">(3) Deformables &amp; Computational Craft</h3>
+          <p class="small">
+            Folding, weaving, sewing, knotting, draping: partial observability and complex state spaces.
+            Focus: structured planning, learned/hybrid simulators, and standardized benchmarks.
+          </p>
+          <ul class="list-tight">
+            <li>World models for deformable dynamics</li>
+            <li>Long-horizon planning under constraints</li>
+            <li>Benchmarking and reproducible evaluation</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+      <div class="card">
+        <h3 style="margin:0 0 6px;font-size:16px;">Cross-cutting questions</h3>
+        <ul class="list-tight">
+          <li>What makes an artistic/expressive task a useful benchmark for embodied intelligence?</li>
+          <li>How should we evaluate creativity and expressivity beyond success/failure?</li>
+          <li>How can world models enable imagination while maintaining physical validity (verification/constraints)?</li>
+          <li>How do we incorporate human feedback without collapsing authorship/agency?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="challenge" class="section">
+      <h2>Embodied4Arts Challenge (Two Painting Tracks)</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3 style="margin:0 0 6px;font-size:16px;">Track 1: Simulation Painting (Best Quality)</h3>
+          <p class="small">
+            Generate executable stroke trajectories in simulation to reproduce target sketches/paintings under a constrained budget (stroke count, motion cost, time).
+          </p>
+          <ul class="list-tight">
+            <li><b>Visual quality:</b> perceptual similarity proxies (LPIPS/CLIP-like)</li>
+            <li><b>Embodied efficiency:</b> path length, pen-up travel, strokes, time</li>
+            <li><b>Robustness (optional):</b> performance under perturbations</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 style="margin:0 0 6px;font-size:16px;">Track 2: Real-Robot Painting (Equal Time)</h3>
+          <p class="small">
+            Remote submission with <b>organizer execution</b> on a single standardized platform (same robot, tool mount, surface, and time budget).
+            Teams submit executable programs/trajectories; organizers run all submissions under identical safety constraints and record outputs.
+          </p>
+          <ul class="list-tight">
+            <li><b>Final artwork:</b> perceptual metrics + optional human rating</li>
+            <li><b>Reliability/safety:</b> stable execution, constraint adherence</li>
+            <li><b>Timing:</b> strict equal time cap for all teams</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+      <div class="card">
+        <h3 style="margin:0 0 6px;font-size:16px;">Sponsorship &amp; Prizes</h3>
+        <p class="small">
+          Sponsored by <b>Axis.ai</b>. Sponsorship funds will be used solely for prizes and workshop/community materials; it will not influence selection, review, or awards decisions, and no commercial promotion will be part of the technical program.
+        </p>
+        <ul class="list-tight">
+          <li><b>Total prize pool:</b> $1,500</li>
+          <li>Grand Prize: $800 • 2nd: $300 • 3rd: $200 • Best Simulation: $100 • Best Real-Robot: $100</li>
+        </ul>
+
+        <div class="hr"></div>
+        <h3 style="margin:0 0 6px;font-size:16px;">Timeline (relative)</h3>
+        <ul class="list-tight">
+          <li><b>T-8 weeks:</b> starter kit release + opening of submissions</li>
+          <li><b>T-3 weeks:</b> submission deadline (challenge + optional abstract/video)</li>
+          <li><b>T-1 week:</b> final leaderboard + winner notification; spotlight schedule finalized</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="speakers" class="section">
+      <h2>Invited Speakers &amp; Panelists</h2>
+      <p class="small">
+        Status legend: <b>Confirmed</b> = speaker has explicitly agreed; <b>Invited</b> = pending response.
+        We will verify that speakers/panelists accept a speaking/panel slot at at most one RSS workshop.
+      </p>
+      <div class="people">
+        <div class="person">
+  <div class="avatar" aria-hidden="true">ZT</div>
+  <div>
+    <div class="name"><a href="https://vztu.github.io/" target="_blank" rel="noopener">Zhengzhong Tu</a></div>
+    <div class="aff">Texas A&M University • <span class="small">Robotic painting/drawing: policies and evaluation</span></div>
+  </div>
+  <div class="status confirmed">Confirmed</div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">CJ</div>
+  <div>
+    <div class="name"><a href="https://www.math.ucla.edu/~cffjiang/" target="_blank" rel="noopener">Chenfanfu Jiang</a></div>
+    <div class="aff">UCLA • <span class="small">Expressive control; graphics & embodied creation</span></div>
+  </div>
+  <div class="status confirmed">Confirmed</div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">MS</div>
+  <div>
+    <div class="name"><a href="https://shumash.com/" target="_blank" rel="noopener">Masha Shugrina</a></div>
+    <div class="aff">NVIDIA Research • <span class="small">Human–AI co-creation systems; creative tools</span></div>
+  </div>
+  <div class="status confirmed">Confirmed</div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">JJ</div>
+  <div>
+    <div class="name"><a href="https://scholar.google.com/citations?user=FRcr6B0AAAAJ&hl=en" target="_blank" rel="noopener">Jennifer Jacobs</a></div>
+    <div class="aff">UC Santa Barbara • <span class="small">Computational craft; interactive fabrication</span></div>
+  </div>
+  <div class="status confirmed">Confirmed</div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">CD</div>
+  <div>
+    <div class="name"><a href="https://chrisdonahue.com/" target="_blank" rel="noopener">Chris Donahue</a></div>
+    <div class="aff">CMU / Google DeepMind • <span class="small">Generative audio/music models</span></div>
+  </div>
+  <div class="status confirmed">Confirmed</div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">SD</div>
+  <div>
+    <div class="name"><a href="https://music-cms.ucsd.edu/people/faculty/regular_faculty/shlomo-dubnov/index.html" target="_blank" rel="noopener">Shlomo Dubnov</a></div>
+    <div class="aff">UC San Diego • <span class="small">Co-creative music systems</span></div>
+  </div>
+  <div class="status confirmed">Confirmed</div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">HW</div>
+  <div>
+    <div class="name"><a href="https://wanghmin.github.io/" target="_blank" rel="noopener">Huamin Wang</a></div>
+    <div class="aff">Style3D • <span class="small">Physics-based cloth simulation for creation</span></div>
+  </div>
+  <div class="status confirmed">Confirmed</div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">VG</div>
+  <div>
+    <div class="name"><a href="https://scholar.google.com/citations?user=jL47JucAAAAJ&hl=nl" target="_blank" rel="noopener">Victor-Louis De Gusseme</a></div>
+    <div class="aff">Ghent Univ. (imec) • <span class="small">Cloth manipulation benchmarks & evaluation</span></div>
+  </div>
+  <div class="status confirmed">Confirmed</div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">YL</div>
+  <div>
+    <div class="name"><a href="https://yunzhuli.github.io/" target="_blank" rel="noopener">Yunzhu Li</a></div>
+    <div class="aff">Columbia University • <span class="small">Fabric/deformable manipulation</span></div>
+  </div>
+  <div class="status invited">Invited</div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">CF</div>
+  <div>
+    <div class="name"><a href="https://ai.stanford.edu/~cbfinn/" target="_blank" rel="noopener">Chelsea Finn</a></div>
+    <div class="aff">Stanford University • <span class="small">World models for long-horizon skills</span></div>
+  </div>
+  <div class="status invited">Invited</div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">SL</div>
+  <div>
+    <div class="name"><a href="https://people.eecs.berkeley.edu/~svlevine/" target="_blank" rel="noopener">Sergey Levine</a></div>
+    <div class="aff">UC Berkeley • <span class="small">Model-based RL</span></div>
+  </div>
+  <div class="status invited">Invited</div>
+</div>
+      </div>
+      <p class="small" style="margin-top:10px;">
+        Panel format: invited speakers + organizers; we will add 1–2 panelists from RSS core communities to ensure strong alignment with planning/control/manipulation and evaluation.
+      </p>
+    </div>
+
+    <div id="organizers" class="section">
+      <h2>Organizers</h2>
+      <div class="people">
+        <div class="person">
+  <div class="avatar" aria-hidden="true">YH</div>
+  <div>
+    <div class="name"><a href="https://huangyanjia.github.io/" target="_blank" rel="noopener">Yanjia Huang</a></div>
+    <div class="aff">Texas A&M University • <a href="mailto:yanjia_0812@tamu.edu">yanjia_0812@tamu.edu</a></div>
+  </div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">PL</div>
+  <div>
+    <div class="name"><a href="https://peihao.li/" target="_blank" rel="noopener">Peihao Li</a></div>
+    <div class="aff">UC Berkeley • <a href="mailto:phli@berkeley.edu">phli@berkeley.edu</a></div>
+  </div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">YJ</div>
+  <div>
+    <div class="name"><a href="https://yingjiang96.github.io/" target="_blank" rel="noopener">Ying Jiang</a></div>
+    <div class="aff">UCLA • <a href="mailto:anajymua@gmail.com">anajymua@gmail.com</a></div>
+  </div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">YC</div>
+  <div>
+    <div class="name"><a href="https://yunuoch.github.io/" target="_blank" rel="noopener">Yunuo Chen</a></div>
+    <div class="aff">UCLA • <a href="mailto:yunuoch@math.ucla.edu">yunuoch@math.ucla.edu</a></div>
+  </div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">MW</div>
+  <div>
+    <div class="name"><a href="https://mingyang.me/" target="_blank" rel="noopener">Mingyang Wu</a></div>
+    <div class="aff">Texas A&M University • <a href="mailto:mingyang@tamu.edu">mingyang@tamu.edu</a></div>
+  </div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">XG</div>
+  <div>
+    <div class="name"><a href="https://www.xiangbogao.com/" target="_blank" rel="noopener">Xiangbo Gao</a></div>
+    <div class="aff">Texas A&M University • <a href="mailto:xiangbo.gao@tamu.edu">xiangbo.gao@tamu.edu</a></div>
+  </div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">HG</div>
+  <div>
+    <div class="name"><a href="https://geng-haoran.github.io/" target="_blank" rel="noopener">Haoran Geng</a></div>
+    <div class="aff">UC Berkeley • <a href="mailto:ghr@berkeley.edu">ghr@berkeley.edu</a></div>
+  </div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">YH</div>
+  <div>
+    <div class="name"><a href="https://evelinehong.github.io/" target="_blank" rel="noopener">Yining Hong</a></div>
+    <div class="aff">Stanford University • <a href="mailto:yninghong@gmail.com">yninghong@gmail.com</a></div>
+  </div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">CJ</div>
+  <div>
+    <div class="name"><a href="https://www.math.ucla.edu/~cffjiang/" target="_blank" rel="noopener">Chenfanfu Jiang</a></div>
+    <div class="aff">UCLA • <a href="mailto:chenfanfu.jiang@gmail.com">chenfanfu.jiang@gmail.com</a></div>
+  </div>
+</div>
+<div class="person">
+  <div class="avatar" aria-hidden="true">ZT</div>
+  <div>
+    <div class="name"><a href="https://vztu.github.io/" target="_blank" rel="noopener">Zhengzhong Tu</a></div>
+    <div class="aff">Texas A&M University • <a href="mailto:tzz@tamu.edu">tzz@tamu.edu</a></div>
+  </div>
+</div>
+      </div>
+      <div class="hr"></div>
+      <div class="card">
+        <h3 style="margin:0 0 6px;font-size:16px;">Organizing Roles (summary)</h3>
+        <ul class="list-tight">
+          <li><b>Primary contact:</b> Yanjia Huang</li>
+          <li><b>Program/review:</b> Peihao Li; Ying Jiang; Yining Hong</li>
+          <li><b>Challenge (simulation):</b> Mingyang Wu; Ying Jiang</li>
+          <li><b>Challenge (real robot):</b> Yanjia Huang; Yunuo Chen; Xiangbo Gao</li>
+          <li><b>Website/publicity:</b> Yining Hong; Peihao Li</li>
+          <li><b>Poster/lightning logistics:</b> Ying Jiang; Xiangbo Gao</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="schedule" class="section">
+      <h2>Tentative Schedule (4 hours)</h2>
+      <div class="card">
+        <p class="small">Half-day (morning or afternoon). Includes a 30-minute coffee break that may overlap with a poster session.</p>
+        <table class="table">
+          <thead><tr><th style="width:22%;">Time</th><th>Activity</th></tr></thead>
+          <tbody>
+            <tr><td>00:00–00:10</td><td>Opening remarks: scope, goals, format, and challenge overview</td></tr>
+            <tr><td>00:10–01:00</td><td>Two invited talks (20–25 min + Q&amp;A each): painting as programs; expressive music control</td></tr>
+            <tr><td>01:00–01:30</td><td>Coffee break + Poster session (posters remain up throughout)</td></tr>
+            <tr><td>01:30–02:05</td><td>Invited talk: deformables/craft</td></tr>
+            <tr><td>02:05–02:30</td><td>Contributed lightning talks (8–10 talks, 2–3 min each)</td></tr>
+            <tr><td>02:30–02:50</td><td>Challenge report + winner spotlights</td></tr>
+            <tr><td>02:50–03:25</td><td>Panel discussion + audience Q&amp;A (moderated)</td></tr>
+            <tr><td>03:25–03:55</td><td>Breakout discussions + report-back (structured prompts)</td></tr>
+            <tr><td>03:55–04:00</td><td>Closing: outcomes, next steps, community actions</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="hr"></div>
+      <div class="card">
+        <h3 style="margin:0 0 6px;font-size:16px;">Logistics (Resources and Attendance)</h3>
+        <p class="small">
+          <b>Resources:</b> standard A/V (projector, mics) and 20–40 poster boards; optional small tabletop demo area if space permits.<br/>
+          <b>In-person:</b> at least three organizers (including the primary contact) will attend.<br/>
+          <b>Online (subject to RSS policy):</b> we will post materials on the website and host an online Q&amp;A channel.
+        </p>
+      </div>
+    </div>
+
+    <div id="submission" class="section">
+      <h2>Submission</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3 style="margin:0 0 6px;font-size:16px;">Call for Contributions (non-archival)</h3>
+          <ul class="list-tight">
+            <li><b>Extended abstract:</b> 1–2 pages (PDF), OR</li>
+            <li><b>Video demo:</b> 2–3 minutes + 1-page summary</li>
+            <li>Optional: challenge participation (sim/real tracks) + short method description</li>
+          </ul>
+          <p class="small">
+            Lightning talks will be selected from submissions (students/first-time presenters prioritized). Posters for accepted contributions.
+          </p>
+        </div>
+        <div class="card">
+          <h3 style="margin:0 0 6px;font-size:16px;">Important Dates (TBD)</h3>
+          <ul class="list-tight">
+            <li>Submissions open: TBD</li>
+            <li>Submission deadline: TBD</li>
+            <li>Notification: TBD</li>
+          </ul>
+          <p class="small">
+            We will publish the submission portal and detailed instructions on this page once the RSS workshop schedule is finalized.
+          </p>
+          <div class="pills">
+            <a class="btn primary" href="#" onclick="alert('Submission portal will be announced soon.'); return false;">Submit (TBD)</a>
+            <a class="btn" href="#" onclick="alert('Submission instructions will be posted soon.'); return false;">Instructions</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+      <div class="card">
+        <h3 style="margin:0 0 6px;font-size:16px;">Contacts</h3>
+        <p class="small">
+          Lead contact: <b>Yanjia Huang</b> — <a href="mailto:yanjia_0812@tamu.edu">yanjia_0812@tamu.edu</a><br/>
+          Website: <a href="https://embodied4arts.github.io">embodied4arts.github.io</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      © 2026 Embodied4Arts Workshop. All rights reserved.
+      <div class="small">Built for GitHub Pages. Edit <code>index.html</code> to update content. Add images under <code>assets/img</code> and <code>assets/people</code> as needed.</div>
+    </div>
+  </div>
+
+</body>
+</html>
