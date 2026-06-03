@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Robotic creative studio</title>
+  <desc id="desc">A robot arm painting expressive strokes in a bright studio with references to music performance and computational craft.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#edf5ef"/>
+    </linearGradient>
+    <linearGradient id="arm" x1="520" y1="245" x2="870" y2="690" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbe4de"/>
+    </linearGradient>
+    <linearGradient id="paint" x1="390" y1="735" x2="1020" y2="625" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b45d42"/>
+      <stop offset=".48" stop-color="#b8872d"/>
+      <stop offset="1" stop-color="#0d766e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#162019" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#wall)"/>
+  <path d="M0 701c243-57 483-79 720-66 247 14 437 73 680 34 83-13 151-33 200-50v381H0z" fill="#f9fbf6"/>
+  <path d="M130 150h1180" stroke="#dfe5dc" stroke-width="3"/>
+  <path d="M190 150v460M390 150v430M590 150v430M790 150v450M990 150v430M1190 150v470" stroke="#e8ece6" stroke-width="3"/>
+  <path d="M1170 275c100 16 174 13 228-10" fill="none" stroke="#d8c492" stroke-width="8" stroke-linecap="round" opacity=".65"/>
+  <path d="M1168 323c102-19 176-15 224 14" fill="none" stroke="#8fcac1" stroke-width="7" stroke-linecap="round" opacity=".72"/>
+  <path d="M1178 367c90 22 164 20 222-6" fill="none" stroke="#d2a86d" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+  <g transform="translate(190 365)">
+    <path d="M34 305V66" stroke="#9c6a38" stroke-width="15" stroke-linecap="round"/>
+    <path d="M90 305V66" stroke="#9c6a38" stroke-width="15" stroke-linecap="round"/>
+    <path d="M63 0v120" stroke="#5a3b1e" stroke-width="10" stroke-linecap="round"/>
+    <path d="M8 112c0-54 110-54 110 0v98c0 64-118 64-118 0z" fill="#b8872d" stroke="#162019" stroke-width="9"/>
+    <path d="M37 103c17 30 16 112-3 142M88 103c-17 30-16 112 3 142" fill="none" stroke="#fff1c9" stroke-width="5" opacity=".85"/>
+    <path d="M21 304h82" stroke="#162019" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(1150 510)">
+    <path d="M0 210h250" stroke="#cfd8cf" stroke-width="8" stroke-linecap="round"/>
+    <path d="M24 182c54-42 110-44 168-4" fill="none" stroke="#d9c18d" stroke-width="12" stroke-linecap="round"/>
+    <path d="M44 146c56-38 100-37 148 2" fill="none" stroke="#b45d42" stroke-width="10" stroke-linecap="round"/>
+    <path d="M70 108c37-24 80-22 130 6" fill="none" stroke="#0d766e" stroke-width="9" stroke-linecap="round"/>
+    <path d="M32 180l44-116 52 112 48-102 54 106" fill="none" stroke="#162019" stroke-width="6" stroke-linejoin="round" opacity=".55"/>
+  </g>
+  <g filter="url(#shadow)">
+    <ellipse cx="675" cy="800" rx="470" ry="78" fill="#e7ece6"/>
+    <path d="M295 760c159 70 296 37 430-83 143-129 268-153 397-71" fill="none" stroke="url(#paint)" stroke-width="44" stroke-linecap="round"/>
+    <path d="M350 817c169 38 334 15 497-70 89-46 167-55 235-28" fill="none" stroke="#203027" stroke-width="12" stroke-linecap="round" opacity=".28"/>
+    <path d="M377 698c120 52 230 27 329-75" fill="none" stroke="#263f78" stroke-width="18" stroke-linecap="round" opacity=".78"/>
+    <path d="M770 744c91-50 175-56 253-18" fill="none" stroke="#0d766e" stroke-width="17" stroke-linecap="round" opacity=".8"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="475" y="704" width="178" height="92" rx="35" fill="#f6f8f4" stroke="#162019" stroke-width="10"/>
+    <circle cx="565" cy="705" r="60" fill="#ffffff" stroke="#162019" stroke-width="12"/>
+    <circle cx="565" cy="705" r="22" fill="#dce7df" stroke="#162019" stroke-width="7"/>
+    <path d="M608 665l153-155" stroke="#162019" stroke-width="32" stroke-linecap="round"/>
+    <path d="M608 665l153-155" stroke="url(#arm)" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="773" cy="500" r="62" fill="#ffffff" stroke="#162019" stroke-width="12"/>
+    <circle cx="773" cy="500" r="22" fill="#dce7df" stroke="#162019" stroke-width="7"/>
+    <path d="M812 548l138 156" stroke="#162019" stroke-width="31" stroke-linecap="round"/>
+    <path d="M812 548l138 156" stroke="url(#arm)" stroke-width="21" stroke-linecap="round"/>
+    <circle cx="958" cy="710" r="42" fill="#ffffff" stroke="#162019" stroke-width="11"/>
+    <circle cx="958" cy="710" r="15" fill="#dce7df" stroke="#162019" stroke-width="6"/>
+    <path d="M985 742l37 62" stroke="#162019" stroke-width="21" stroke-linecap="round"/>
+    <path d="M985 742l37 62" stroke="#f8fbf7" stroke-width="13" stroke-linecap="round"/>
+    <path d="M1019 795l-19 72 58-43 8-38-29-16z" fill="#b45d42" stroke="#162019" stroke-width="8" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(1040 205)" opacity=".95">
+    <rect x="0" y="0" width="260" height="225" rx="10" fill="#ffffff" stroke="#dfe5dc" stroke-width="8"/>
+    <path d="M38 154c51-87 95-92 133-14 18 36 39 43 64 17" fill="none" stroke="#263f78" stroke-width="15" stroke-linecap="round"/>
+    <path d="M35 178c78 35 146 21 203-44" fill="none" stroke="#b8872d" stroke-width="8" stroke-linecap="round" opacity=".85"/>
+    <path d="M50 75c54 29 101 26 142-9" fill="none" stroke="#0d766e" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+  </g>
+</svg>
