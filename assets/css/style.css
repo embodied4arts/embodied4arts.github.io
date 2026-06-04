@@ -63,6 +63,20 @@ h1{margin-bottom:18px;font-size:48px;line-height:1.08;font-weight:850}
 h2{margin-bottom:12px;font-size:30px;line-height:1.18}
 h3{font-size:17px;line-height:1.25}
 .lead{max-width:760px;color:#354139;font-size:18px}
+.hero-alert{
+  display:grid;
+  gap:2px;
+  max-width:720px;
+  margin-top:18px;
+  padding:13px 15px;
+  border:1px solid #b8ded8;
+  border-left:5px solid var(--accent);
+  border-radius:8px;
+  background:#eef8f5;
+  color:#23403a;
+}
+.hero-alert strong{font-size:15px}
+.hero-alert span{font-size:14px;color:#52645e}
 .hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 .button{
   display:inline-flex;
@@ -176,6 +190,20 @@ h3{font-size:17px;line-height:1.25}
   background:#ffffff;
   color:var(--ink);
 }
+.challenge-rules{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+  margin-top:16px;
+}
+.challenge-rules article{
+  padding:18px;
+  border:1px solid rgba(255,255,255,0.16);
+  border-radius:8px;
+  background:rgba(255,255,255,0.08);
+}
+.challenge-rules h3{margin-bottom:8px;color:#ffffff}
+.challenge-rules li{color:#dbe8df}
 .track-label{
   display:inline-flex;
   margin-bottom:10px;
@@ -281,10 +309,32 @@ li{margin:6px 0}
 .submission-grid{display:grid;grid-template-columns:1.1fr 0.9fr;gap:28px;align-items:start}
 .submission-card{background:#ffffff;color:var(--ink)}
 .submission-card h3{margin:0 0 8px}
+.deadline-box{
+  margin-bottom:18px;
+  padding:16px;
+  border:1px solid #b8ded8;
+  border-radius:8px;
+  background:#eef8f5;
+}
+.deadline-box span{
+  display:block;
+  margin-bottom:2px;
+  color:var(--accent-dark);
+  font-size:12px;
+  font-weight:850;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+}
+.deadline-box strong{display:block;font-size:24px;line-height:1.2}
+.guideline-grid{display:grid;gap:16px}
+.guideline-grid>div+div{
+  padding-top:14px;
+  border-top:1px solid var(--line);
+}
 .footer{padding:26px 0;color:var(--muted);background:var(--paper);border-top:1px solid var(--line);font-size:14px}
 .footer p{margin:0 0 4px}
 @media (max-width: 980px){
-  .hero-grid,.two-column,.submission-grid,.challenge-layout{grid-template-columns:1fr}
+  .hero-grid,.two-column,.submission-grid,.challenge-layout,.challenge-rules{grid-template-columns:1fr}
   .hero-media{max-width:760px}
   .info-grid{grid-template-columns:repeat(2,1fr)}
   .topic-grid,.organizer-grid{grid-template-columns:repeat(2,1fr)}
