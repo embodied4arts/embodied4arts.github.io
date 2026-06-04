@@ -77,6 +77,34 @@ h3{font-size:17px;line-height:1.25}
 }
 .hero-alert strong{font-size:15px}
 .hero-alert span{font-size:14px;color:#52645e}
+.pathway-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+  margin-top:16px;
+}
+.pathway-grid article{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  min-height:220px;
+  padding:16px;
+  border:1px solid var(--line);
+  border-radius:8px;
+  background:var(--paper);
+  box-shadow:0 1px 0 rgba(22,32,25,0.03);
+}
+.pathway-grid span{
+  margin-bottom:8px;
+  color:var(--gold);
+  font-size:12px;
+  font-weight:850;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+}
+.pathway-grid h2{margin-bottom:8px;font-size:19px;line-height:1.2}
+.pathway-grid p{color:var(--muted);font-size:14px}
+.pathway-grid .button{margin-top:auto}
 .hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 .button{
   display:inline-flex;
@@ -334,7 +362,7 @@ li{margin:6px 0}
 .footer{padding:26px 0;color:var(--muted);background:var(--paper);border-top:1px solid var(--line);font-size:14px}
 .footer p{margin:0 0 4px}
 @media (max-width: 980px){
-  .hero-grid,.two-column,.submission-grid,.challenge-layout,.challenge-rules{grid-template-columns:1fr}
+  .hero-grid,.two-column,.submission-grid,.challenge-layout,.challenge-rules,.pathway-grid{grid-template-columns:1fr}
   .hero-media{max-width:760px}
   .info-grid{grid-template-columns:repeat(2,1fr)}
   .topic-grid,.organizer-grid{grid-template-columns:repeat(2,1fr)}
