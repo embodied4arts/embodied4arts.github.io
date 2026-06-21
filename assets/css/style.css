@@ -353,6 +353,7 @@ li{margin:6px 0}
   letter-spacing:0.12em;
   text-transform:uppercase;
 }
+.deadline-box strong+span{margin-top:14px}
 .deadline-box strong{display:block;font-size:24px;line-height:1.2}
 .guideline-grid{display:grid;gap:16px}
 .guideline-grid>div+div{
