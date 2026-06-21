@@ -140,7 +140,7 @@ h3{font-size:17px;line-height:1.25}
   font-size:13px;
 }
 .quick-info{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--paper)}
-.info-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.info-grid{display:grid;grid-template-columns:repeat(5,1fr)}
 .info-grid>div{padding:18px;border-right:1px solid var(--line)}
 .info-grid>div:first-child{border-left:1px solid var(--line)}
 .info-label{display:block;margin-bottom:4px;color:var(--muted)}
