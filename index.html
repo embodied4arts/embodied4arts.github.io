@@ -19,8 +19,7 @@
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#overview">Overview</a>
-        <a href="#challenge">Challenge</a>
-        <a href="#submission">Submission</a>
+        <a href="#submission">Posters</a>
         <a href="#questions">Questions</a>
         <a href="#topics">Topics</a>
         <a href="#schedule">Schedule</a>
@@ -39,21 +38,21 @@
             Embodied4Arts welcomes work at the intersection of robotics and the arts: robots that paint, draw, perform, sculpt, craft, compose, fabricate, collaborate, or otherwise participate in creative practice.
           </p>
           <div class="hero-alert" role="status">
-            <strong>Submissions are open.</strong>
-            <span>Regular papers and demos are due July 3, 2026. Late-breaking demo-only and Robot Painting Challenge entries remain open until July 10, 2026.</span>
+            <strong>Poster submissions are open.</strong>
+            <span>Priority poster submissions are due July 3, 2026. Late-breaking posters may be submitted until July 10, 2026, space permitting.</span>
           </div>
           <div class="pathway-grid" aria-label="Submission pathways">
             <article>
-              <span>Track A</span>
-              <h2>Workshop Papers & Demos</h2>
+              <span>Poster Track</span>
+              <h2>Creative Robotics Posters</h2>
               <p>For any robotics-and-arts paper, system, method, demo, position piece, or early result, as long as it contributes artistic, robotic, or human-centered insight beyond leaderboard improvement alone.</p>
-              <a class="button primary" href="https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/Embodied4Arts" target="_blank" rel="noopener">Submit Paper or Demo</a>
+              <a class="button primary" href="https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/Embodied4Arts" target="_blank" rel="noopener">Submit Poster</a>
             </article>
             <article>
-              <span>Track B</span>
-              <h2>Robot Painting Challenge</h2>
-              <p>For teams entering the target-image-to-robot-painting competition. Challenge entries should include a method note and result media.</p>
-              <a class="button" href="#challenge">View Challenge Rules</a>
+              <span>Fast Decisions</span>
+              <h2>Rolling Review for Travel Planning</h2>
+              <p>Authors who need visa, registration, or poster-printing decisions are encouraged to submit early. We will review poster submissions on a rolling basis when possible.</p>
+              <a class="button" href="mailto:yanjia@ucla.edu?subject=Embodied4Arts%20poster%20decision%20timeline">Ask About Timing</a>
             </article>
           </div>
           <div class="hero-actions">
@@ -90,92 +89,6 @@
         <div>
           <span class="info-label">Contact</span>
           <strong><a href="mailto:yanjia@ucla.edu">yanjia@ucla.edu</a></strong>
-        </div>
-      </div>
-    </section>
-
-    <section id="challenge" class="section challenge-feature">
-      <div class="container">
-        <div class="challenge-layout">
-          <div class="challenge-intro">
-            <p class="section-kicker">Flagship Challenge</p>
-            <h2>Can your robot turn a target artwork into physical strokes?</h2>
-            <p>
-              The Embodied4Arts Robot Painting Challenge gives every team the same target artwork and asks for an executable painting program. The result is evaluated as an artwork and as an embodied plan: what strokes were chosen, how they were ordered, and how well they survive the realities of motion, tools, and time.
-            </p>
-            <div class="challenge-actions">
-              <a class="button primary" href="https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/Embodied4Arts" target="_blank" rel="noopener">Submit Challenge Entry</a>
-              <a class="button dark" href="mailto:yanjia@ucla.edu?subject=Robot%20Painting%20Challenge">Ask About the Challenge</a>
-            </div>
-          </div>
-          <div class="challenge-facts" aria-label="Challenge highlights">
-            <div><span>Task</span><strong>Target image to robot painting</strong></div>
-            <div><span>Output</span><strong>Executable strokes or trajectories</strong></div>
-            <div><span>Prize Pool</span><strong>$1,500</strong></div>
-            <div><span>Tracks</span><strong>Quality and timed execution</strong></div>
-          </div>
-        </div>
-
-        <div class="split-cards challenge-tracks">
-          <article>
-            <span class="track-label">Track 1</span>
-            <h3>Open-Time Quality</h3>
-            <p>Optimize for the best final reproduction quality with no strict execution-time limit. This track highlights the algorithmic upper bound: stroke decomposition, layering, color use, style preservation, and visual fidelity.</p>
-            <ul>
-              <li>Primary goal: produce the best and most faithful final painting</li>
-              <li>Evaluation: target similarity, human preference, style preservation</li>
-              <li>Secondary factors: stroke quality, physical feasibility, material constraints</li>
-            </ul>
-          </article>
-          <article>
-            <span class="track-label">Track 2</span>
-            <h3>Fixed-Time Painting</h3>
-            <p>Paint under the same execution-time budget. This track rewards systems that make smart tradeoffs between visual quality, stroke economy, path planning, speed, and robust robot execution.</p>
-            <ul>
-              <li>Primary goal: create the best painting within a fixed time limit</li>
-              <li>Evaluation: time-bounded quality, similarity, and human rating</li>
-              <li>Secondary factors: motion efficiency, reliability, safety constraints</li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="challenge-rules" aria-label="Robot Painting Challenge rules">
-          <article>
-            <h3>What to Submit</h3>
-            <ul>
-              <li>A 1-2 page method note describing the painting algorithm, robot setup, tools, and constraints</li>
-              <li>A target-to-painting result image or video, plus intermediate stroke plan when available</li>
-              <li>For hardware entries, a short execution video showing the robot painting process</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Judging Criteria</h3>
-            <ul>
-              <li>Visual similarity to the target artwork and human preference ratings</li>
-              <li>Expressive stroke quality, color use, and preservation of style</li>
-              <li>Physical feasibility, trajectory efficiency, robustness, and safety-aware execution</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Participation</h3>
-            <ul>
-              <li>Teams may enter either or both tracks</li>
-              <li>Simulated, plotted, or real robot systems are welcome when assumptions are clearly stated</li>
-              <li>Selected entries may be invited for a lightning talk, poster, or live/demo video showcase</li>
-            </ul>
-          </article>
-        </div>
-
-        <p class="challenge-note">
-          Sponsored by Axis.ai. Sponsorship funds will be used only for prizes and community materials, and will not influence selection, review, or awards decisions.
-        </p>
-        <div class="prize-row">
-          <span>Total prize pool: $1,500</span>
-          <span>Grand Prize: $800</span>
-          <span>2nd: $300</span>
-          <span>3rd: $200</span>
-          <span>Best Open-Time Quality: $100</span>
-          <span>Best Fixed-Time Painting: $100</span>
         </div>
       </div>
     </section>
@@ -313,12 +226,12 @@
           <h2>Tentative Half-Day Schedule</h2>
         </div>
         <div class="schedule">
-          <div><time>00:00-00:10</time><p>Opening remarks: scope, goals, and challenge overview</p></div>
+          <div><time>00:00-00:10</time><p>Opening remarks: scope, goals, and poster themes</p></div>
           <div><time>00:10-01:00</time><p>Invited talks: painting as programs and expressive music control</p></div>
           <div><time>01:00-01:30</time><p>Coffee break and poster session</p></div>
           <div><time>01:30-02:05</time><p>Invited talk: deformables, craft, and physical simulation</p></div>
           <div><time>02:05-02:30</time><p>Contributed lightning talks</p></div>
-          <div><time>02:30-02:50</time><p>Challenge report and winner spotlights</p></div>
+          <div><time>02:30-02:50</time><p>Poster spotlight talks and community discussion</p></div>
           <div><time>02:50-03:25</time><p>Panel discussion and audience Q&A</p></div>
           <div><time>03:25-03:55</time><p>Breakout discussions and report-back</p></div>
           <div><time>03:55-04:00</time><p>Closing and community next steps</p></div>
@@ -330,15 +243,15 @@
       <div class="container submission-grid">
         <div>
           <p class="section-kicker">Call for Contributions</p>
-          <h2>Paper, Demo, and Challenge Submissions Are Open</h2>
+          <h2>Poster Submissions Are Open</h2>
           <p>
-            We invite two kinds of contributions. The regular workshop track welcomes any non-archival robotics-and-arts contribution: extended abstracts, short video demos, systems, methods, position papers, design studies, creative practice reports, negative results, and early-stage ideas. We especially welcome work that creates artistic or human-centered value, not submissions whose main contribution is only improving a benchmark score.
+            We invite non-archival poster contributions on robotics and the arts: extended abstracts, short video demos, systems, methods, position papers, design studies, creative practice reports, negative results, and early-stage ideas. We especially welcome work that creates artistic or human-centered value, not submissions whose main contribution is only improving a benchmark score.
           </p>
           <p>
-            Authors may submit to the workshop track, the challenge track, or both. Accepted workshop papers and demos will be considered for posters and lightning talks; selected challenge entries will be considered for the challenge showcase and awards.
+            Accepted submissions will be presented as posters, with selected works invited for short spotlight talks. Authors who need visa, registration, or poster-printing decisions should submit as early as possible; we will review poster submissions on a rolling basis when possible.
           </p>
           <p>
-            Regular workshop papers and demos are due July 3, 2026. Late-breaking demo-only submissions and Robot Painting Challenge entries will remain open until July 10, 2026 and may be considered for demos, posters, or challenge participation depending on available program space.
+            Priority poster submissions are due July 3, 2026. Late-breaking poster submissions will remain open until July 10, 2026 and may be considered depending on available program space.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/Embodied4Arts" target="_blank" rel="noopener">Submit via OpenReview</a>
@@ -347,26 +260,18 @@
         </div>
         <div class="submission-card">
           <div class="deadline-box">
-            <span>Regular Paper / Demo Deadline</span>
+            <span>Priority Poster Deadline</span>
             <strong>July 3, 2026</strong>
-            <span>Late-Breaking Demo / Challenge Deadline</span>
+            <span>Late-Breaking Poster Deadline</span>
             <strong>July 10, 2026</strong>
           </div>
           <div class="guideline-grid">
             <div>
-              <h3>Regular Workshop Track</h3>
+              <h3>Poster Submission</h3>
               <ul>
                 <li>Extended abstract: 1-2 pages</li>
                 <li>Video demo: 2-3 minutes plus 1-page summary</li>
-                <li>Accepted entries may be invited for posters or lightning talks</li>
-              </ul>
-            </div>
-            <div>
-              <h3>Challenge Track</h3>
-              <ul>
-                <li>Robot painting entry with selected track: open-time or fixed-time</li>
-                <li>Method note plus result image, video, or execution evidence</li>
-                <li>Accepted entries may be featured in the challenge showcase</li>
+                <li>Accepted entries will be invited for posters; selected entries may receive spotlight talks</li>
               </ul>
             </div>
             <div>
@@ -381,9 +286,9 @@
               <h3>Important Dates</h3>
               <ul>
                 <li>Submissions open: June 3, 2026</li>
-                <li>Regular paper/demo deadline: July 3, 2026</li>
-                <li>Late-breaking demo and challenge deadline: July 10, 2026</li>
-                <li>Notification: TBD</li>
+                <li>Priority poster deadline: July 3, 2026</li>
+                <li>Late-breaking poster deadline: July 10, 2026</li>
+                <li>Notifications: rolling, with final notifications after July 10</li>
                 <li>Workshop: July 13, 2026</li>
               </ul>
             </div>
