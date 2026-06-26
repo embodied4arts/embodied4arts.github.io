@@ -234,6 +234,7 @@ li{margin:6px 0}
 }
 .schedule time{color:var(--accent-dark);font-weight:850}
 .schedule p{margin:0}
+.note{margin:16px 0 0;color:var(--muted);font-size:14px}
 .submission-band{background:#17231c;color:#ffffff}
 .submission-band .section-kicker{color:#8fd4c9}
 .submission-band p{color:#dce7df}
